@@ -186,3 +186,65 @@ body {
     color: white;
     background-color: #E95D0F;
 }
+
+.scores {
+    margin: 2em auto 0;
+    padding: 1em;
+    max-width: 550px;
+    background-color: #ededed;
+    border-radius: 10px;
+}
+
+.scores h2 {
+    margin-top: 0;
+    color: #0D1B2E;
+}
+
+#score-list {
+    margin-bottom: 0;
+    padding-left: 1.5em;
+}
+
+.performance {
+    margin: 2em auto 0;
+    padding: 1em;
+    max-width: 550px;
+    background-color: #f7f7f7;
+    border-left: 8px solid #429890;
+    border-radius: 10px;
+}
+
+.performance h2 {
+    margin-top: 0;
+    color: #0D1B2E;
+}
+
+.performance p {
+    margin: 0.5em 0;
+}
+
+.ghost-track {
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: #dddddd;
+    border-radius: 10px;
+}
+
+#ghost-bar,
+#user-bar {
+    margin: 0.5em 0;
+    padding: 0.4em;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+#ghost-bar {
+    background-color: #777777;
+}
+
+#user-bar {
+    background-color: #429890;
+}

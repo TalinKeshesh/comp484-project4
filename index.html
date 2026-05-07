@@ -34,6 +34,26 @@
 
                 <button id="reset">Start over</button>
             </div><!-- .meta -->
+
+            <section class="performance">
+                <h2>Live Performance</h2>
+                <p><strong>WPM:</strong> <span id="wpm">0</span></p>
+                <p><strong>Errors:</strong> <span id="errors">0</span></p>
+                <p><strong>Sudden Death Mode:</strong> Active - test resets after more than 3 mistakes.</p>
+                <p><strong>Ghost Target WPM:</strong> <span id="ghost-wpm">40</span></p>
+                <p><strong>Ghost Status:</strong> <span id="ghost-status">Start typing to race the ghost.</span></p>
+                <div class="ghost-track">
+                    <div id="ghost-bar">Ghost</div>
+                    <div id="user-bar">You</div>
+                </div>
+            </section>
+
+            <section class="scores">
+                <h2>Top Three Fastest Scores</h2>
+                <ol id="score-list">
+                    <li>No scores yet</li>
+                </ol>
+            </section>
         </section><!-- .test-area -->
     </main>
 
